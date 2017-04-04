@@ -10,9 +10,9 @@ namespace YleService
 
     public class YleProgramSearchService : MonoBehaviour
     {
-        public string BaseUrl = "https://external.api.yle.fi";
-		public string AppId = "74ffeb19";
-		public string AppKey = "3a4f62135d1c1b6e75698e3f88f0e76a";
+        public static string BaseUrl = "https://external.api.yle.fi";
+		public static string AppId = "74ffeb19";
+		public static string AppKey = "3a4f62135d1c1b6e75698e3f88f0e76a";
 
         public UnityAction<List<YleProgram>, string> LoadProgramBatchFinished;
 
